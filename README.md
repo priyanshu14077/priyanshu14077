@@ -34,7 +34,7 @@ Selected Impact
   <img src="https://img.shields.io/badge/Dunne_uptime-99.99%25-0d1117?style=for-the-badge" alt="99.99 percent uptime at Dunne" />
 </p>
 
-<sub>Reported production outcomes from my Proploy and Dunne work; project context is linked in the portfolio.</sub>
+<h3>Reported production outcomes from my Proploy and Dunne work; project context is linked in the portfolio.</h3>
 Featured Projects
 Proploy — AI Procurement Platform
 Forward Deployed Engineer · Anthropic SDK · FastAPI · Next.js · PostgreSQL/pgvector · Cloud Run
