@@ -22,11 +22,12 @@
   <a href="https://cal.com/priyanshu-kumar-qvlmdx">Book a call</a> · New Delhi, India · Open to forward-deployed, AI platform, and solutions engineering opportunities
 </p>
 
-About Me
-I work where the problem lives: I learn the team's workflow, define the actual bottleneck, build against real constraints, and own the path to production. My background spans full-stack engineering, backend systems, retrieval-augmented generation (RAG), AI agents, and cloud deployment.
+## About me
 
-I care about the whole outcome — useful behaviour, grounded answers, observable services, and systems teams can keep running after hand-off.
-Selected Impact
+I work where the problem lives. I learn the team's workflow, find the real bottleneck, build against the constraints that actually exist, and own the path to production. My background covers full-stack engineering, backend systems, retrieval-augmented generation (RAG), AI agents, and cloud deployment. I judge the work by the whole outcome: answers grounded in evidence, services you can observe, and systems a team can keep running after I hand them over.
+
+## Selected impact
+
 <p align="center">
   <img src="https://img.shields.io/badge/Catalog_ingestion-3_days_%E2%86%92_20_seconds-0d1117?style=for-the-badge" alt="Catalog ingestion reduced from 3 days to 20 seconds" />
   <img src="https://img.shields.io/badge/Search_latency-%3C50ms-0d1117?style=for-the-badge" alt="Search latency under 50 milliseconds" />
@@ -34,36 +35,31 @@ Selected Impact
   <img src="https://img.shields.io/badge/Dunne_uptime-99.99%25-0d1117?style=for-the-badge" alt="99.99 percent uptime at Dunne" />
 </p>
 
-<h3>Reported production outcomes from my Proploy and Dunne work; project context is linked in the portfolio.</h3>
-Featured Projects
-Proploy — AI Procurement Platform
-Forward Deployed Engineer · Anthropic SDK · FastAPI · Next.js · PostgreSQL/pgvector · Cloud Run
+<p align="center"><sub>Reported production outcomes from my Proploy and Dunne work. The portfolio has the project context.</sub></p>
 
-Built the agent and retrieval path for a software procurement platform. The system uses a Claude tool loop, hybrid catalogue retrieval, and streaming responses, with safeguards that distinguish missing evidence from a confident negative. Improved per-product catalogue ingestion from roughly 3 days to 20 seconds, tuned search to under 50 ms, and reduced monthly Cloud Run spend from about $562 to $56.
-Dunne — Jewellery Customisation
-Full-stack Engineer · Next.js · Nginx · AWS CloudFront
+## Work in production
 
-As the sole engineer, delivered a jewellery customisation experience and its production delivery path. The platform tracked 1,000+ shoppers at 99.99% uptime over the measured period, while image load time dropped from 3+ seconds to under 200 ms.
-Tether — Partner Discovery & Outreach
-Python · Resend · React Flow
+At **Proploy**, an AI procurement platform, I built the agent and retrieval path as a forward deployed engineer. A Claude tool loop runs over hybrid catalogue retrieval and streams its answers, and its safeguards tell missing evidence apart from a confident "no". On the platform, per-product catalogue ingestion dropped from about 3 days to 20 seconds, search runs in under 50 ms, and monthly Cloud Run spend fell from about $562 to $56.<br />
+<sub>Anthropic SDK · FastAPI · Next.js · PostgreSQL with pgvector · Cloud Run</sub>
 
-Automates discovery of SaaS implementation partners from official vendor directories, deduplicates firms, applies company-size criteria, and validates contact addresses before a capped outreach sequence. The project reports 23 directories, 14,008 partner firms, and 4,897 addresses passing its checks.
-Bidwright — Evidence-Linked RFP Briefs
-Python · FastAPI · React · PostgreSQL
+At **Dunne**, a jewellery customisation store, I was the only engineer. I built the customisation experience and the path that delivers it to shoppers. Over the measured period it served 1,000+ tracked shoppers at 99.99% uptime, and image load time dropped from more than 3 seconds to under 200 ms.<br />
+<sub>Next.js · Nginx · AWS CloudFront</sub>
 
-Turns RFP document packs into cited briefs, traces extracted values to source pages, flags contradictions across documents, and isolates workspaces with database-level access controls.
-Riverline — Real-Time Voice Agent
-TypeScript · Node.js · Python · XState
+## Systems I've built
 
-A Hindi/English voice-agent architecture with a streaming speech-to-text, LLM, and text-to-speech pipeline. An explicit state machine controls the conversation while event-driven services handle transcripts, tools, and audio output.
-Flowforge — Visual AI Workflow Builder
-TypeScript · Fastify · Prisma · PostgreSQL · Groq
+Outside client work, I build systems around one hard problem each: evidence you can cite, people worth contacting, a conversation in real time, or a workflow that runs itself.
 
-A drag-and-drop workflow builder with LLM, HTTP, and conditional nodes, an asynchronous execution engine, and webhook-triggered runs.
-More Builds
-- Emtech Solutions — owned a responsive company website and lead-capture flow showcasing 72+ projects across 12 sectors.
-- CEX — simulated stock exchange with virtual INR wallets, market/limit orders, FIFO cost basis, and portfolio P/L.
-Tools I Work With
+| Project | What it does | Stack |
+|---|---|---|
+| **Bidwright** | Turns RFP document packs into cited briefs. Every extracted value links back to its source page, contradictions across documents get flagged, and database-level access controls keep workspaces apart. | Python, FastAPI, React, PostgreSQL |
+| **Tether** | Finds SaaS implementation partners in official vendor directories, removes duplicate firms, filters by company size, and validates contact addresses before a capped outreach sequence. It covers 23 directories, 14,008 firms, and 4,897 addresses that pass its checks. | Python, Resend, React Flow |
+| **Riverline** | A real-time voice agent in Hindi and English. Speech-to-text, the LLM, and text-to-speech stream into each other, and an explicit state machine controls the conversation. | TypeScript, Node.js, Python, XState |
+| **Flowforge** | A drag-and-drop builder for AI workflows, with LLM, HTTP, and conditional nodes, an asynchronous execution engine, and webhook-triggered runs. | TypeScript, Fastify, Prisma, PostgreSQL, Groq |
+
+Before that, I owned the company website and lead-capture flow at **Emtech Solutions**, which presents 72+ projects across 12 sectors. I also built **CEX**, a simulated stock exchange with virtual INR wallets, market and limit orders, FIFO cost basis, and portfolio profit and loss.
+
+## Tools I work with
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,tailwind,fastapi,nodejs,postgres,supabase,redis,docker,aws,gcp,git,githubactions&perline=8" alt="Python, TypeScript, JavaScript, React, Next.js, Tailwind CSS, FastAPI, Node.js, PostgreSQL, Supabase, Redis, Docker, AWS, Google Cloud, Git and GitHub Actions" />
 </p>
@@ -75,7 +71,8 @@ Tools I Work With
   <img src="https://img.shields.io/badge/Data-Postgres_%7C_pgvector_%7C_Redis-4169E1?style=flat-square" alt="PostgreSQL, pgvector and Redis" />
 </p>
 
-GitHub Stats
+## GitHub stats
+
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=priyanshu14077&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub statistics" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=priyanshu14077&layout=compact&hide_border=true&theme=github_dark" alt="Most used programming languages" />
